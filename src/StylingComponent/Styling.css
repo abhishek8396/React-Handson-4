@@ -24,7 +24,7 @@ table tr{
     border: 1px solid black;
 }
 .active{
-    color: blue;
+    color: red;
 }
     
 
@@ -51,7 +51,40 @@ table{
     border-radius: 20px;
     border: 3px solid black;
 }
-button{
+.button2{
     border: none;
+}
+h1{
+    color: crimson;
+    font-size: xx-large;
+}
+.updatecontainer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.samecontainer{
+    width: 320px;
+    height: 60px;
+    margin: 80px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+.samecontainer:focus{
+    border: 2px solid blue;
+}
+.buttoncontainer{
+    position: relative;
+    left: 900px;
+}
+button{
+    margin: 20px;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
 }
 
